@@ -1,4 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: beige;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 1%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32;
+}
+
+h3 {
+    font-size: 28;
+}
 
 p { 
-    font-size: 18px; 
+    font-size: 18px;
+}
+
+
+
+.headpicture{
+    display: flex;
+    justify-content: center;
+    img{
+        max-width: 80%;
+    }
+
+}
+
+.pictext{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    padding: 20px;
+    background-color: bisque;
+    margin: 20px;
+    
 }
