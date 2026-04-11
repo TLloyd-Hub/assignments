@@ -22,7 +22,18 @@ p {
     font-size: 18px;
 }
 
+blockquote{
+    text-align: center;
+}
 
+.navbar{
+    display: flex;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 .headpicture{
     display: flex;
