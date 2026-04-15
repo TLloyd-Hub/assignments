@@ -28,11 +28,20 @@ blockquote{
 
 .navbar{
     display: flex;
+    flex-direction: row;
     text-align: left;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.navbar_item{
+    display: flex;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    background-color:rgb(206, 206, 206);
 }
 
 .returnbar{
