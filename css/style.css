@@ -66,5 +66,14 @@ blockquote{
     padding: 20px;
     background-color: bisque;
     margin: 20px;
-    
 }
+
+.underwater{
+    display: flex;
+    justify-content: center;
+}
+
+figcaption{
+    font-size: 14px;
+}
+
