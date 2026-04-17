@@ -50,7 +50,7 @@ blockquote{
     margin: 20px;
 }
 
-.headpicture{
+.header_picture_about{
     display: flex;
     justify-content: center;
     img{
