@@ -77,10 +77,25 @@ figcaption{
     font-size: 14px;
 }
 
-#header_picture_recipe{
+.recipe_page{
+    background-image: 
+    linear-gradient(rgba(255,255,255,0.3)),
+    url(../img/food_background.webp);
+    background-size: cover;
+}
+
+.header_picture_recipe_box{
+    display: flex;
+    justify-self: center;
     max-width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    background-color:  rgb(241, 208, 160);
+    padding: 20px;
+
+}
+
+#header_picture_recipe{
+    justify-self: center;
+    max-width: 100%;
 }
 
 .recipe_title{
@@ -94,6 +109,7 @@ figcaption{
     width: 60%;
     justify-content: left;
     justify-self: center;
+    background-color:  rgb(241, 208, 160);
 }
 
 .directions{
