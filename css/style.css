@@ -41,7 +41,7 @@ blockquote{
     text-align: center;
     margin: 5px;
     padding: 5px;
-    background-color:rgb(206, 206, 206);
+    background-color: rgb(241, 208, 160);
 }
 
 .returnbar{
@@ -53,10 +53,10 @@ blockquote{
 .header_picture_about{
     display: flex;
     justify-content: center;
-    img{
-        max-width: 80%;
-    }
+}
 
+.header_picture_about img{
+    max-width: 80%;
 }
 
 .pictext{
@@ -104,6 +104,11 @@ figcaption{
    font-size: 32px;
 }
 
+.recipe_title h3{
+    background-color:  rgb(241, 208, 160);
+    padding: 5px;
+}
+
 .ingredients{
     display: flex;
     width: 60%;
@@ -123,6 +128,7 @@ figcaption{
 
 .directions h4{
     margin-left: 10%;
+    background-color:  rgb(241, 208, 160);
 }
 
 .direction_box{
