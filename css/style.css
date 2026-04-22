@@ -42,10 +42,12 @@ blockquote{
     margin: 5px;
     padding: 5px;
     background-color: rgb(241, 208, 160);
+    border: 2px solid black;
 }
 
 .returnbar{
     display: flex;
+    justify-content: right;
     text-align: left;
     margin: 20px;
 }
@@ -66,6 +68,7 @@ blockquote{
     padding: 20px;
     background-color: bisque;
     margin: 20px;
+    border: 2px solid black;
 }
 
 .underwater{
@@ -90,6 +93,7 @@ figcaption{
     max-width: 80%;
     background-color:  rgb(241, 208, 160);
     padding: 20px;
+    border: 2px solid black;
 
 }
 
@@ -107,6 +111,7 @@ figcaption{
 .recipe_title h3{
     background-color:  rgb(241, 208, 160);
     padding: 5px;
+    border: 2px solid black;
 }
 
 .ingredients{
@@ -115,6 +120,7 @@ figcaption{
     justify-content: left;
     justify-self: center;
     background-color:  rgb(241, 208, 160);
+    border: 2px solid black;
 }
 
 .directions{
@@ -134,8 +140,9 @@ figcaption{
 .direction_box{
     background-color: rgb(241, 208, 160);
     padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
 }
 
 
