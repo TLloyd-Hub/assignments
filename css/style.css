@@ -1,28 +1,28 @@
-body{
+.main_body_style {
     font-family: Arial, Helvetica, sans-serif; 
     background-color: beige;
 }
 
-h1 {
+.main_title {
     text-align: center;
     font-size: 42px;
     margin-bottom: 1%;
 }
 
-h2 {
+.main_subtitle {
     text-align: center;
     font-size: 32;
 }
 
-h3 {
+.sub_heading {
     font-size: 28;
 }
 
-p { 
+.about_me_description { 
     font-size: 18px;
 }
 
-blockquote{
+.center_text{
     text-align: center;
 }
 
@@ -85,6 +85,7 @@ figcaption{
     linear-gradient(rgba(255,255,255,0.3)),
     url(../img/food_background.webp);
     background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header_picture_recipe_box{
