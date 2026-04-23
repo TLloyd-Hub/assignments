@@ -26,6 +26,10 @@
     text-align: center;
 }
 
+.font_quote {
+    text-align: center;
+}
+
 .navbar{
     display: flex;
     flex-direction: row;
@@ -115,7 +119,7 @@ figcaption{
     border: 2px solid black;
 }
 
-.ingredients{
+.listbox{
     display: flex;
     width: 60%;
     justify-content: left;
@@ -138,7 +142,7 @@ figcaption{
     background-color:  rgb(241, 208, 160);
 }
 
-.direction_box{
+.text_box{
     background-color: rgb(241, 208, 160);
     padding: 10px;
     margin-top: 10px;
