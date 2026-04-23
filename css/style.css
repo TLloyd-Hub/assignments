@@ -7,6 +7,7 @@
     text-align: center;
     font-size: 42px;
     margin-bottom: 1%;
+    text-shadow: 4px 4px 4px #aaa;
 }
 
 .main_subtitle {
@@ -61,6 +62,11 @@
     justify-content: center;
 }
 
+.header_picture_space img{
+    width: 100%;
+    justify-content: center;
+}
+
 .header_picture_about img{
     max-width: 80%;
 }
@@ -92,7 +98,7 @@ figcaption{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.header_picture_recipe_box{
+.header_picture_box{
     display: flex;
     justify-self: center;
     max-width: 80%;
@@ -102,7 +108,7 @@ figcaption{
 
 }
 
-#header_picture_recipe{
+#header_picture{
     justify-self: center;
     max-width: 100%;
 }
@@ -149,5 +155,50 @@ figcaption{
     margin-bottom: 10px;
     border: 2px solid black;
 }
+
+.text_box h2{
+    text-align: left;
+    font-size: 18px;
+}
+
+.side_picture_box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.side_picture{
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    max-width: 20%;
+}
+
+.side_picture img{
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.background_img{
+    background-image: url(../img/space_background.webp);
+    background-size: cover;
+}
+
+.yellow_text{
+    color: rgb(231, 246, 18);
+}
+
+.attributions{
+    justify-self: center;
+    margin-top: 100px;
+    color: rgb(255, 255, 255);
+}
+
+.attributions h6{
+    font-size: 12px;
+    margin: 2px;
+}
+
 
 
