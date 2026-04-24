@@ -11,6 +11,14 @@
     margin-bottom: 1%;  
 }
 
+.left_margin {
+    margin-left: 10%;
+}
+
+.no_margin {
+    margin: 2px;
+}
+
 .shadow_text{
     text-shadow: 4px 4px 4px #aaa;
 }
@@ -105,15 +113,6 @@
     border: 2px solid black;
 }
 
-.underwater {
-    display: flex;
-    justify-content: center;
-}
-
-figcaption {
-    font-size: 14px;
-}
-
 .recipe_page {
     background-image:
         linear-gradient(rgba(255, 255, 255, 0.3)),
@@ -129,7 +128,6 @@ figcaption {
     background-color: rgb(241, 208, 160);
     padding: 20px;
     border: 2px solid black;
-
 }
 
 #header_picture {
@@ -164,11 +162,6 @@ figcaption {
     flex-direction: column;
     margin-left: 5%;
     margin-right: 5%;
-}
-
-.center_divs h4 {
-    margin-left: 10%;
-    background-color: rgb(241, 208, 160);
 }
 
 .text_box {
@@ -208,6 +201,3 @@ figcaption {
     margin-top: 100px;
 }
 
-.attributions h6 {
-    margin: 2px;
-}
