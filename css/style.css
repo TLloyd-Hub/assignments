@@ -1,37 +1,61 @@
-.main_body_style {
-    font-family: Arial, Helvetica, sans-serif; 
+
+.font_arial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.back_color_beige{
     background-color: beige;
 }
 
-.main_title {
-    text-align: center;
-    font-size: 42px;
-    margin-bottom: 1%;
+.margin_bottom { 
+    margin-bottom: 1%;  
+}
+
+.shadow_text{
     text-shadow: 4px 4px 4px #aaa;
 }
 
-.main_subtitle {
-    text-align: center;
+.font_42{
+    font-size: 42px;
+}
+
+.font_xxl{
+    font-size: xx-large;
+}
+
+.font_32{
     font-size: 32;
 }
 
-.sub_heading {
+.font_28 {
     font-size: 28;
 }
 
-.about_me_description { 
+.font_18 {
     font-size: 18px;
 }
 
-.center_text{
+.font_12{
+    font-size: 12px;
+}
+
+.center_text {
     text-align: center;
 }
 
-.font_quote {
-    text-align: center;
+.left_text{
+    text-align: left;
 }
 
-.navbar{
+.yellow_text {
+    color: rgb(231, 246, 18);
+}
+
+.white_text {
+    color: rgb(255, 255, 255);
+}
+
+.navbar {
     display: flex;
     flex-direction: row;
     text-align: left;
@@ -41,7 +65,7 @@
     margin-bottom: 20px;
 }
 
-.navbar_item{
+.navbar_item {
     display: flex;
     text-align: center;
     margin: 5px;
@@ -50,28 +74,28 @@
     border: 2px solid black;
 }
 
-.returnbar{
+.returnbar {
     display: flex;
     justify-content: right;
     text-align: left;
     margin: 20px;
 }
 
-.header_picture_about{
+.header_picture_about {
     display: flex;
     justify-content: center;
 }
 
-.header_picture_space img{
+.header_picture_space img {
     width: 100%;
     justify-content: center;
 }
 
-.header_picture_about img{
+.header_picture_about img {
     max-width: 80%;
 }
 
-.pictext{
+.pictext {
     display: flex;
     align-items: center;
     gap: 2%;
@@ -81,60 +105,59 @@
     border: 2px solid black;
 }
 
-.underwater{
+.underwater {
     display: flex;
     justify-content: center;
 }
 
-figcaption{
+figcaption {
     font-size: 14px;
 }
 
-.recipe_page{
-    background-image: 
-    linear-gradient(rgba(255,255,255,0.3)),
-    url(../img/food_background.webp);
+.recipe_page {
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.3)),
+        url(../img/food_background.webp);
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.header_picture_box{
+.header_picture_box {
     display: flex;
     justify-self: center;
     max-width: 80%;
-    background-color:  rgb(241, 208, 160);
+    background-color: rgb(241, 208, 160);
     padding: 20px;
     border: 2px solid black;
 
 }
 
-#header_picture{
+#header_picture {
     justify-self: center;
     max-width: 100%;
 }
 
-.recipe_title{
-   display: flex;
-   justify-content: center;
-   font-size: 32px;
+.title_box {
+    display: flex;
+    justify-content: center;
 }
 
-.recipe_title h3{
-    background-color:  rgb(241, 208, 160);
+.title_box h3 {
+    background-color: rgb(241, 208, 160);
     padding: 5px;
     border: 2px solid black;
 }
 
-.listbox{
+.listbox {
     display: flex;
     width: 60%;
     justify-content: left;
     justify-self: center;
-    background-color:  rgb(241, 208, 160);
+    background-color: rgb(241, 208, 160);
     border: 2px solid black;
 }
 
-.directions{
+.center_divs {
     display: flex;
     justify-self: center;
     max-width: 60%;
@@ -143,12 +166,12 @@ figcaption{
     margin-right: 5%;
 }
 
-.directions h4{
+.center_divs h4 {
     margin-left: 10%;
-    background-color:  rgb(241, 208, 160);
+    background-color: rgb(241, 208, 160);
 }
 
-.text_box{
+.text_box {
     background-color: rgb(241, 208, 160);
     padding: 10px;
     margin-top: 10px;
@@ -156,49 +179,35 @@ figcaption{
     border: 2px solid black;
 }
 
-.text_box h2{
-    text-align: left;
-    font-size: 18px;
-}
-
-.side_picture_box{
+.side_picture_box {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.side_picture{
+.side_picture {
     justify-content: center;
     align-items: center;
     margin: 5px;
     max-width: 20%;
 }
 
-.side_picture img{
+.side_picture img {
     width: 100%;
     margin: 5px;
     padding: 5px;
 }
 
-.background_img{
+.background_img {
     background-image: url(../img/space_background.webp);
     background-size: cover;
 }
 
-.yellow_text{
-    color: rgb(231, 246, 18);
-}
-
-.attributions{
+.attributions {
     justify-self: center;
     margin-top: 100px;
-    color: rgb(255, 255, 255);
 }
 
-.attributions h6{
-    font-size: 12px;
+.attributions h6 {
     margin: 2px;
 }
-
-
-
