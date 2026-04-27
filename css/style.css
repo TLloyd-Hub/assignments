@@ -1,3 +1,11 @@
+@font-face {
+    src: url(../font/Orbitron-VariableFont_wght.ttf);
+    font-family: orbitron;
+}
+
+.font_orbitron{
+    font-family: orbitron;
+}
 
 .font_arial{
     font-family: Arial, Helvetica, sans-serif;
@@ -7,12 +15,20 @@
     background-color: beige;
 }
 
-.margin_bottom { 
+.bottom_margin_none { 
     margin-bottom: 1%;  
 }
 
 .left_margin {
     margin-left: 10%;
+}
+
+.top_margin_100 {
+    margin-top: 100px;
+}
+
+.bottom_margin_100 {
+    margin-bottom: 100px;
 }
 
 .no_margin {
@@ -61,6 +77,10 @@
 
 .white_text {
     color: rgb(255, 255, 255);
+}
+
+.just_center{
+    justify-self: center;
 }
 
 .navbar {
@@ -196,8 +216,7 @@
     background-size: cover;
 }
 
-.attributions {
-    justify-self: center;
+.margin_top {
     margin-top: 100px;
 }
 
