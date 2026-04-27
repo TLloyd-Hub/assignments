@@ -3,12 +3,24 @@
     font-family: orbitron;
 }
 
+.font_michroma {
+  font-family: "Michroma", sans-serif;
+}
+
 .font_goldman{
     font-family: "Goldman", sans-serif;
 }
 
 .font_orbitron{
     font-family: orbitron;
+}
+
+.font_georgia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2em;
+    font-variant: small-caps;
 }
 
 .font_arial{
@@ -49,6 +61,10 @@
 
 .font_42{
     font-size: 42px;
+}
+
+.font_26{
+    font-size: 26px;
 }
 
 .font_xxl{
@@ -182,6 +198,17 @@
     display: flex;
     width: 60%;
     justify-content: left;
+    justify-self: center;
+    background-color: rgb(241, 208, 160);
+    border: 2px solid black;
+}
+
+.listbox_center {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 20px;
+    justify-content: center;
     justify-self: center;
     background-color: rgb(241, 208, 160);
     border: 2px solid black;
