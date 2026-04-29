@@ -1,21 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Michroma&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Michroma&display=swap");
+
 @font-face {
     src: url(../font/Orbitron-VariableFont_wght.ttf);
     font-family: orbitron;
 }
 
 .font_michroma {
-  font-family: "Michroma", sans-serif;
+    font-family: "Michroma", sans-serif;
 }
 
-.font_goldman{
+.font_goldman {
     font-family: "Goldman", sans-serif;
 }
 
-.font_orbitron{
+.font_orbitron {
     font-family: orbitron;
 }
 
-.font_georgia{
+.font_georgia {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     font-style: italic;
@@ -23,20 +26,16 @@
     font-variant: small-caps;
 }
 
-.font_arial{
+.font_arial {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.font_verdana{  
+.font_verdana {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.back_color_beige{
-    background-color: beige;
-}
-
-.bottom_margin_none { 
-    margin-bottom: 1%;  
+.bottom_margin_none {
+    margin-bottom: 1%;
 }
 
 .left_margin {
@@ -55,23 +54,23 @@
     margin: 2px;
 }
 
-.shadow_text{
+.shadow_text {
     text-shadow: 4px 4px 4px #aaa;
 }
 
-.font_42{
+.font_42 {
     font-size: 42px;
 }
 
-.font_26{
+.font_26 {
     font-size: 26px;
 }
 
-.font_xxl{
+.font_xxl {
     font-size: xx-large;
 }
 
-.font_32{
+.font_32 {
     font-size: 32;
 }
 
@@ -87,7 +86,7 @@
     font-size: 18px;
 }
 
-.font_12{
+.font_12 {
     font-size: 12px;
 }
 
@@ -95,8 +94,12 @@
     text-align: center;
 }
 
-.left_text{
+.left_text {
     text-align: left;
+}
+
+.just_center {
+    justify-self: center;
 }
 
 .yellow_text {
@@ -107,8 +110,40 @@
     color: rgb(255, 255, 255);
 }
 
-.just_center{
-    justify-self: center;
+.back_color_beige {
+    background-color: rgb(241, 208, 160);
+}
+
+.back_color_blue {
+    background-color: rgb(1, 117, 185);
+}
+
+.back_color_bisque {
+    background-color: bisque;
+}
+
+.border_black {
+    border: 2px solid black;
+}
+
+.border_white {
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.border_blue {
+    border: 2px solid rgb(35, 0, 176);
+}
+
+.back_color_blue a:link {
+    color: white;
+}
+
+.back_color_blue a:hover {
+    color: white;
+}
+
+.back_color_blue a:visited {
+    color: rgb(252, 236, 142);
 }
 
 .navbar {
@@ -126,8 +161,6 @@
     text-align: center;
     margin: 5px;
     padding: 5px;
-    background-color: rgb(241, 208, 160);
-    border: 2px solid black;
 }
 
 .returnbar {
@@ -156,7 +189,6 @@
     align-items: center;
     gap: 2%;
     padding: 20px;
-    background-color: bisque;
     margin: 20px;
     border: 2px solid black;
 }
@@ -173,7 +205,6 @@
     display: flex;
     justify-self: center;
     max-width: 80%;
-    background-color: rgb(241, 208, 160);
     padding: 20px;
     border: 2px solid black;
 }
@@ -189,7 +220,6 @@
 }
 
 .title_box h3 {
-    background-color: rgb(241, 208, 160);
     padding: 5px;
     border: 2px solid black;
 }
@@ -199,7 +229,6 @@
     width: 60%;
     justify-content: left;
     justify-self: center;
-    background-color: rgb(241, 208, 160);
     border: 2px solid black;
 }
 
@@ -210,22 +239,21 @@
     padding: 20px;
     justify-content: center;
     justify-self: center;
-    background-color: rgb(241, 208, 160);
     border: 2px solid black;
 }
 
 .center_divs {
     display: flex;
-    justify-self: center;
-    max-width: 60%;
     flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    max-width: 60%;
     margin-left: 5%;
     margin-right: 5%;
 }
 
 .text_box {
-    background-color: rgb(241, 208, 160);
-    max-width: 70%;
+    width: 70%;
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -255,6 +283,3 @@
     background-image: url(../img/space_background.webp);
     background-size: cover;
 }
-
-
-
