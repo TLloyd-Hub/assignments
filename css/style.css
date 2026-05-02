@@ -48,6 +48,11 @@
     background-size: cover;
 }
 
+.cool_space_background_img{
+    background-image: url(../img/cool_space.webp);
+    background-size: cover;
+}
+
 /* ************* Margins/Padding ************* */
 
 .bottom_margin_none {
@@ -58,8 +63,12 @@
     margin-left: 3rem;
 }
 
-.top_margin_2em{
- margin-top: 3em;
+.top_margin_2em {
+    margin-top: 3em;
+}
+
+.top_margin_15em {
+    margin-top: 15em;
 }
 
 .top_margin_7 {
@@ -74,13 +83,13 @@
     margin: 0;
 }
 
-.padding_5{
+.padding_5 {
     padding: 5px;
 }
 
 /* ************* Font Size ************* */
 
-.font_5vw{
+.font_5vw {
     font-size: 5vw;
 }
 
@@ -114,11 +123,15 @@
     text-align: left;
 }
 
+.right_text {
+    text-align: right;
+}
+
 .just_center {
     justify-self: center;
 }
 
-.top_anchor{
+.top_anchor {
     position: top;
 }
 
@@ -181,11 +194,11 @@
 }
 
 /* ************* Containers ************* */
-.navbar_background_black{
+.navbar_background_black {
     background-color: rgb(3, 0, 0);
     width: 100%;
     margin: 0;
-    
+
 }
 
 .navbar {
@@ -210,12 +223,12 @@
     margin: 20px;
 }
 
-.header_space{
+.header_space {
     display: grid;
     grid-template-areas: "stack";
 }
 
-.header_space > *{
+.header_space>* {
     grid-area: stack;
 }
 
@@ -306,3 +319,35 @@
     padding: 5px;
 }
 
+.data_table {
+    width: 80%;
+}
+
+.planets_table {
+    justify-self: center;
+    table-layout: fixed;
+    width: 80%;
+    border-collapse: collapse;
+    margin-bottom: 10em;
+}
+
+.planets_table tr:nth-child(even) {
+    background-color: #1e3a8a;
+}
+
+.planets_table tr:nth-child(odd) {
+    background-color: #4fc3f7;
+}
+
+.planets_table td,
+tr {
+    border: 2px solid black;
+    padding: .5em;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.planets_table th {
+    font-size: 1.5em;
+    border: 2px solid black;
+}
